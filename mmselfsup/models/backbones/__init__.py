@@ -1,6 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from .beit_vit import BEiTViT
 from .cae_vit import CAEViT
+# from .van import VAN_Official
 from .mae_vit import MAEViT
 from .maskfeat_vit import MaskFeatViT
 from .milan_vit import MILANViT
@@ -13,5 +14,5 @@ from .simmim_swin import SimMIMSwinTransformer
 __all__ = [
     'ResNet', 'ResNetSobel', 'ResNetV1d', 'ResNeXt', 'MAEViT', 'MoCoV3ViT',
     'SimMIMSwinTransformer', 'CAEViT', 'MaskFeatViT', 'BEiTViT', 'MILANViT',
-    'MixMIMTransformerPretrain'
+    'MixMIMTransformerPretrain',# 'VAN_Official',
 ]
